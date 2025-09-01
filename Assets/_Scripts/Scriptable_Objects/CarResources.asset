@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e8fb767d89246f591f9aa2b40d3ced, type: 3}
+  m_Name: CarResources
+  m_EditorClassIdentifier: 
+  carList:
+  - carType: 0
+    carBuyData:
+      lockedMessage: 
+      price: 0
+      waveCount: 0
+      remainingCount: 0
+      purchaseOptions: 0
+    carModelArt:
+      m_AssetGUID: 790059e4cc06544d2ae1fc4d0a57af65
+      m_SubObjectName: buggy-art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    upgradeCount: 4
+    carName: Buggy
+    carPrefab: {fileID: 2524029565690719245, guid: b43da2b186af54e3a8d60d338e95d12a,
+      type: 3}
+    carModel: {fileID: 3921124305479995806, guid: ad6da47c1fb614727ae1804dc2244578,
+      type: 3}
+    carCount: 3
+    unlockObjectType: 2
+    maxHealt: 500
+    maxArmor: 100
+    moveSpeed: 17
+    maxSpeed: 50
+    drag: 0.98
+    steerAngle: 20
+    traction: 1
+    driftMultiplier: 0.2
+    driftSpeedMultiplier: 0.7
+    driftOffset: 35
+    tiltAmount: 5
+    liftAmount: 7.5
+  - carType: 1
+    carBuyData:
+      lockedMessage: Clear 30 waves to unlock
+      price: 20000
+      waveCount: 5
+      remainingCount: 0
+      purchaseOptions: 1
+    carModelArt:
+      m_AssetGUID: 790059e4cc06544d2ae1fc4d0a57af65
+      m_SubObjectName: suv-art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    upgradeCount: 4
+    carName: Suv
+    carPrefab: {fileID: 3217059606369764800, guid: 6fa138921169b4a0cbdc360f6a800df2,
+      type: 3}
+    carModel: {fileID: 5179973992253394185, guid: f683178ebcf1d4fda85d3fadbcd09c2a,
+      type: 3}
+    carCount: 3
+    unlockObjectType: 3
+    maxHealt: 1000
+    maxArmor: 100
+    moveSpeed: 17
+    maxSpeed: 30
+    drag: 0.98
+    steerAngle: 20
+    traction: 1
+    driftMultiplier: 0.2
+    driftSpeedMultiplier: 0.7
+    driftOffset: 35
+    tiltAmount: 5
+    liftAmount: 7.5
+  - carType: 2
+    carBuyData:
+      lockedMessage: Clear 42 waves to unlock
+      price: 3
+      waveCount: 6
+      remainingCount: 0
+      purchaseOptions: 3
+    carModelArt:
+      m_AssetGUID: 790059e4cc06544d2ae1fc4d0a57af65
+      m_SubObjectName: hotrod-art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    upgradeCount: 6
+    carName: Hot Rod
+    carPrefab: {fileID: 2315681616448471182, guid: 54ba1329d3c5d4e1b8fca97279319832,
+      type: 3}
+    carModel: {fileID: 6967068827029007019, guid: 8ffd2c1c673a945259cfd52cdbecfc0b,
+      type: 3}
+    carCount: 3
+    unlockObjectType: 4
+    maxHealt: 450
+    maxArmor: 100
+    moveSpeed: 25
+    maxSpeed: 45
+    drag: 0.98
+    steerAngle: 20
+    traction: 1
+    driftMultiplier: 0.2
+    driftSpeedMultiplier: 0.7
+    driftOffset: 35
+    tiltAmount: 5
+    liftAmount: 7.5
+  - carType: 3
+    carBuyData:
+      lockedMessage: Clear 100 waves to unlock
+      price: 50000
+      waveCount: 11
+      remainingCount: 0
+      purchaseOptions: 1
+    carModelArt:
+      m_AssetGUID: 790059e4cc06544d2ae1fc4d0a57af65
+      m_SubObjectName: monster-art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    upgradeCount: 6
+    carName: Monster
+    carPrefab: {fileID: 6859534213268203180, guid: 466228b05d61745bab199b59878a9114,
+      type: 3}
+    carModel: {fileID: 3467430640302325125, guid: c22e2fbe393d441c7a1972c40f6e304b,
+      type: 3}
+    carCount: 3
+    unlockObjectType: 5
+    maxHealt: 750
+    maxArmor: 100
+    moveSpeed: 18
+    maxSpeed: 35
+    drag: 0.98
+    steerAngle: 20
+    traction: 1
+    driftMultiplier: 0.2
+    driftSpeedMultiplier: 0.7
+    driftOffset: 28
+    tiltAmount: 5
+    liftAmount: 7.5
+  - carType: 4
+    carBuyData:
+      lockedMessage: Complete the "Helipad Clearance" mission to unlock
+      price: 1
+      waveCount: 12
+      remainingCount: 0
+      purchaseOptions: 3
+    carModelArt:
+      m_AssetGUID: 790059e4cc06544d2ae1fc4d0a57af65
+      m_SubObjectName: ute-art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    upgradeCount: 8
+    carName: Ute
+    carPrefab: {fileID: 823793760822550206, guid: d4982a070f5d845f7865546d70acac1f,
+      type: 3}
+    carModel: {fileID: 9112142609723844486, guid: 0a491dea99d01429c859d554bc93007e,
+      type: 3}
+    carCount: 2
+    unlockObjectType: 6
+    maxHealt: 1500
+    maxArmor: 100
+    moveSpeed: 20
+    maxSpeed: 32
+    drag: 0.98
+    steerAngle: 20
+    traction: 1
+    driftMultiplier: 0.2
+    driftSpeedMultiplier: 0.7
+    driftOffset: 35
+    tiltAmount: 5
+    liftAmount: 7.5
+  carSpawnPoints:
+  - position: {x: 22.97, y: 0.5, z: -41.58}
+    rotation: {x: 0, y: 0.008028428, z: 0, w: 0.99996775}
+  - position: {x: -181.6, y: 0.5, z: -33.1}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: -112.32, y: 0.5, z: -92.626}
+    rotation: {x: 0, y: 0.006108614, z: 0, w: 0.99998134}
+  - position: {x: 33.43, y: 0.5, z: 41.5}
+    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  - position: {x: -11.54, y: 0.5, z: 148.05}
+    rotation: {x: 0, y: 0.002268926, z: 0, w: 0.99999744}
+  - position: {x: -23.09, y: 0.5, z: -31.93}
+    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  - position: {x: -80.6, y: 0.5, z: 133.8}
+    rotation: {x: 0, y: 0.008028428, z: 0, w: 0.99996775}
+  - position: {x: -183.24, y: 0.5, z: 40.92}
+    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  - position: {x: -148.7, y: 0.5, z: -46.7}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: -122.89, y: 0.5, z: 12.97}
+    rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  - position: {x: 20.17, y: 0.5, z: 11.14}
+    rotation: {x: 0, y: 0.004363309, z: 0, w: 0.99999046}
+  - position: {x: 20.17, y: 0.5, z: 134.3}
+    rotation: {x: 0, y: 0.008028428, z: 0, w: 0.99996775}
+  - position: {x: 19.98, y: 0.5, z: 116.48}
+    rotation: {x: 0, y: 0.0063704085, z: 0, w: 0.99997973}
+  - position: {x: 21.97, y: 0.5, z: 72.49}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: -59.8, y: 0.5, z: 41.35}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: -41.98, y: 0.5, z: 108}
+    rotation: {x: 0, y: 0.004101512, z: 0, w: 0.9999916}
+  - position: {x: -43, y: 0.5, z: 217}
+    rotation: {x: 0, y: 0.008115692, z: 0, w: 0.99996704}
+  - position: {x: -145, y: 0.5, z: 47.4}
+    rotation: {x: 0, y: 0.008115692, z: 0, w: 0.99996704}
+  - position: {x: -102.6, y: 0.5, z: -101.96}
+    rotation: {x: 0, y: 0.00016580627, z: 0, w: 1}
+  - position: {x: 7.05, y: 0.5, z: -81.22}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  - position: {x: -13.46, y: 0.5, z: 36.94}
+    rotation: {x: 0, y: -0.008464745, z: 0, w: 0.9999642}
+  garageTransform:
+    position: {x: -35.8, y: 0.67, z: -60.66}
+    rotation: {x: 0, y: -0.9205048, z: 0, w: 0.3907312}
+  tutorialCarType: 4
+  tutorialCarTransform:
+    position: {x: -54.55, y: 0.67, z: -503.01}
+    rotation: {x: 0, y: 0.19763169, z: 0, w: 0.98027635}
+  tutorialCarHealth: 700

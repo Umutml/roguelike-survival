@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23feee3fa0f85e7448a0dd0d5d87b5e3, type: 3}
+  m_Name: SkillData
+  m_EditorClassIdentifier: 
+  skills:
+  - {fileID: 11400000, guid: f823cef5d6b4c604187334f09c0d1f90, type: 2}
+  - {fileID: 11400000, guid: 6fb49c440668edf48921b7805da51ee1, type: 2}
+  - {fileID: 11400000, guid: 67da5691316873941aed6e2a49d9ada0, type: 2}
+  - {fileID: 11400000, guid: fa195f0b0ae681345ab8322d505b3596, type: 2}
+  - {fileID: 11400000, guid: ef490ee7f07984ed5931b7eb716f30c2, type: 2}
+  - {fileID: 11400000, guid: 82cd566241ee94e3b9eddbded8e2fb29, type: 2}
+  - {fileID: 11400000, guid: ff618fed218aa4fd58caba6d6bd8809d, type: 2}
+  - {fileID: 11400000, guid: a049578c14f0c412d9da9414802811fc, type: 2}
+  - {fileID: 11400000, guid: 892e55525f7a34bfc8b11d0c54c3da13, type: 2}
+  - {fileID: 11400000, guid: b9f5e3575460f42bfb2407d4f906f9df, type: 2}
+  - {fileID: 11400000, guid: df26d3181c2b14a61856fec3960ddf8f, type: 2}
+  - {fileID: 11400000, guid: 3fe8d5720526f034f8c41916c204eedb, type: 2}
+  - {fileID: 11400000, guid: 815be4d6aa49ddd4fb6454e1cc5d5916, type: 2}
+  - {fileID: 11400000, guid: 2c43f2f6b599a3e4a8758ee3bb0fd7e1, type: 2}
+  - {fileID: 11400000, guid: abac3ee035de43349aa53eceaa751175, type: 2}
+  - {fileID: 11400000, guid: 5d45c53b494b3e1458b0c271e2ceb344, type: 2}
+  - {fileID: 11400000, guid: 188da9549eb567340abed80f328718c8, type: 2}
+  - {fileID: 11400000, guid: c9ad999ca7ee8b348be0e6fd41965f82, type: 2}
+  - {fileID: 11400000, guid: 9ecc8e7b302987249b3ef344ff1a3cf8, type: 2}
+  - {fileID: 11400000, guid: aace07fc12a8d71439857b8aa9eb9716, type: 2}
+  - {fileID: 11400000, guid: db837184a8a170c4687183ff2ebc4ccb, type: 2}
+  skillColorData:
+  - upgradeType: 4
+    gradient:
+      serializedVersion: 2
+      key0: {r: 0.078431375, g: 0.17254902, b: 0.31764707, a: 1}
+      key1: {r: 0.12156863, g: 0.16078432, b: 0.52156866, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+  - upgradeType: 2
+    gradient:
+      serializedVersion: 2
+      key0: {r: 0.28627452, g: 0.0627451, b: 0.0627451, a: 1}
+      key1: {r: 0.5882353, g: 0.10980392, b: 0.11764706, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+  - upgradeType: 1
+    gradient:
+      serializedVersion: 2
+      key0: {r: 0.21176471, g: 0.07450981, b: 0.35686275, a: 1}
+      key1: {r: 0.33333334, g: 0.20784314, b: 0.68235296, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2

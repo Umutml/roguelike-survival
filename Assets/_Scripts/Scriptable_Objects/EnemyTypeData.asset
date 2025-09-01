@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619c1bb4a43533649b0fc13045b52bac, type: 3}
+  m_Name: EnemyTypeData
+  m_EditorClassIdentifier: 
+  enemyTypes:
+  - EnemyType: {fileID: 11400000, guid: 9bb69dc49da5f6c4f98467a8fbdeebb1, type: 2}
+    SpawnChance: 15.83
+  - EnemyType: {fileID: 11400000, guid: d929fb6067bfc5243bb4c9ed62101710, type: 2}
+    SpawnChance: 15.83
+  - EnemyType: {fileID: 11400000, guid: 5f5f70de449aec14c8f93898eef49be2, type: 2}
+    SpawnChance: 15.83
+  - EnemyType: {fileID: 11400000, guid: 69d226958bc64f649873d3ddf85d2760, type: 2}
+    SpawnChance: 15.83
+  - EnemyType: {fileID: 11400000, guid: 950f187f5b1f6b64f9f0331769d1a7e0, type: 2}
+    SpawnChance: 15.83
+  - EnemyType: {fileID: 11400000, guid: d45d9dc1cdc26934492379eef7461365, type: 2}
+    SpawnChance: 15.83
+  - EnemyType: {fileID: 11400000, guid: 686f91c05ba036a49aef99013c12f654, type: 2}
+    SpawnChance: 5
+  tutorialEnemyTypes:
+  - {fileID: 11400000, guid: aea97d67605aa9e44b4946443e574d17, type: 2}

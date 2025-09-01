@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad48e53efd20d48189ac4cdafbca4a23, type: 3}
+  m_Name: ChestResources
+  m_EditorClassIdentifier: 
+  chests:
+  - chestName: Regular Chest
+    chestType: 0
+    chestImage:
+      m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+      m_SubObjectName: Regular-Chest
+      m_SubObjectGUID: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+    rewardAmount: 20
+    purchaseOptions: 0
+  - chestName: Big Chest
+    chestType: 1
+    chestImage:
+      m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+      m_SubObjectName: Big-Chest
+      m_SubObjectGUID: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+    rewardAmount: 75
+    purchaseOptions: 0
+  - chestName: Mega Chest
+    chestType: 2
+    chestImage:
+      m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+      m_SubObjectName: Mega-Chest
+      m_SubObjectGUID: 
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_EditorAssetChanged: 1
+    rewardAmount: 200
+    purchaseOptions: 0

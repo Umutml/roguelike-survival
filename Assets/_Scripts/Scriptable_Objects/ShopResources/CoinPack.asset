@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4aba10649c84aceadac09927e5e22d, type: 3}
+  m_Name: CoinPack
+  m_EditorClassIdentifier: 
+  itemTitle: COIN PACK
+  itemDescription: Increase your coin balance to buy more upgrades!
+  enable: 1
+  eventParameter: 
+  itemReference:
+    m_AssetGUID: 2689233e1db8b4b499780e9c7c1d9a87
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  segmentReference:
+    m_AssetGUID: 55f71d6fad6cd44429fd519e42c40677
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  slots:
+  - shopItemList:
+    - productAmount: 1500
+      bonusAmount: 1000
+      productPrice: 150
+      eventParameter: HC_COIN_PACK_1500
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Coin-v1-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 1
+      chestType: 0
+      purchaseOptions: 0
+      dailyStock: 0
+  - shopItemList:
+    - productAmount: 15000
+      bonusAmount: 10000
+      productPrice: 1500
+      eventParameter: HC_COIN_PACK_15000
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Coin-v2-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 1
+      chestType: 0
+      purchaseOptions: 0
+      dailyStock: 0
+  - shopItemList:
+    - productAmount: 75000
+      bonusAmount: 50000
+      productPrice: 7500
+      eventParameter: HC_COIN_PACK_75000
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Coin-v3-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 1
+      chestType: 0
+      purchaseOptions: 0
+      dailyStock: 0

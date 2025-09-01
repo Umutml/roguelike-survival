@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acb28595d7e8ea41bca911dcafd57b5, type: 3}
+  m_Name: CleanCity_Minimap
+  m_EditorClassIdentifier: 
+  minimapName: CleanCity
+  heightMin: -812.27
+  heightMax: 687.73
+  widthMin: -835.58997
+  widthMax: 664.41003
+  minimapParts:
+  - m_AssetGUID: a7eac626b70a36f4f9dda10b589e1f24
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 5c1dc4fbe0db225409cbfa13d7730205
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: c29ec671633803f4b9032edf9a196baf
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: f646de7d6101f0943bc33439462bc7ef
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 4c24e2b2396b31b419afd9dd47d1059c
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 64eca2a93f9531f41a4136a99946ed7f
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 647187c09f9b69a4fbecdd67daf0855a
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: e514005afe1bd7c429bf097eeaba8569
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 8d8740ad41e80fa47818c27bd30681c5
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  minimapCursors:
+  - objectTag: Base
+    cursorCount: 1
+    punchAnimationCount: 0
+    alwaysOnDisplay: 1
+    multipleCursor: 1
+    cursorImage:
+      m_AssetGUID: 0a88ebd47c89b4d47a2eca34f7439a1f
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - objectTag: ManagementNPC
+    cursorCount: 1
+    punchAnimationCount: 0
+    alwaysOnDisplay: 1
+    multipleCursor: 1
+    cursorImage:
+      m_AssetGUID: 4e734379bbb63aa478fdc1b76d8ed024
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 1
+  - objectTag: Car
+    cursorCount: 3
+    punchAnimationCount: 0
+    alwaysOnDisplay: 0
+    multipleCursor: 0
+    cursorImage:
+      m_AssetGUID: fcbfe9397666142bdacef37222ca2486
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - objectTag: Objective
+    cursorCount: 1
+    punchAnimationCount: 3
+    alwaysOnDisplay: 1
+    multipleCursor: 1
+    cursorImage:
+      m_AssetGUID: 58bfdf431a31e9943babc31138d171bb
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - objectTag: Truck
+    cursorCount: 1
+    punchAnimationCount: 3
+    alwaysOnDisplay: 1
+    multipleCursor: 0
+    cursorImage:
+      m_AssetGUID: cf1071db2cf63ce498a339b55615529e
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

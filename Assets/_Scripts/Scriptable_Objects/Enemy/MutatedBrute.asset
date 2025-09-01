@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519824a994229564b9c97222cb741aed, type: 3}
+  m_Name: MutatedBrute
+  m_EditorClassIdentifier: 
+  name: Mutated Brute
+  zombieType: 1
+  enemyCategory: 5
+  health: 500
+  movementSpeed: 1
+  attackDamage: 40
+  attackRange: 1
+  attackSpeed: 2
+  detectionRadius: 8
+  baseXpDropValue: 5
+  xpDropValue: 25
+  xpDropChance: 75
+  softCurrencyChance: 75
+  minSoftCurrencyInWave: 30
+  maxSoftCurrencyInWave: 50
+  minSoftCurrencyInFreeRoam: 0
+  maxSoftCurrencyInFreeRoam: 0
+  largeHordeCount: 1
+  mediumHordeCount: 0
+  smallHordeCount: 0
+  prefabPath: ZombieBossFemale
+  projectileReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  deathVFXReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  toxicVFXReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519824a994229564b9c97222cb741aed, type: 3}
+  m_Name: Spitter
+  m_EditorClassIdentifier: 
+  name: Spitter
+  zombieType: 2
+  enemyCategory: 2
+  health: 50
+  movementSpeed: 1
+  attackDamage: 15
+  attackRange: 5.5
+  attackSpeed: 0.4
+  detectionRadius: 15
+  baseXpDropValue: 3
+  xpDropValue: 5
+  xpDropChance: 30
+  softCurrencyChance: 20
+  minSoftCurrencyInWave: 5
+  maxSoftCurrencyInWave: 10
+  minSoftCurrencyInFreeRoam: 2
+  maxSoftCurrencyInFreeRoam: 4
+  largeHordeCount: 6
+  mediumHordeCount: 3
+  smallHordeCount: 1
+  prefabPath: StandardZombie
+  skinKey: Zombie_Bride_Female_01
+  projectileReference:
+    m_AssetGUID: 52eb1acb9791d9e41b1752dec657cbb7
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  deathVFXReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  toxicVFXReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  spitterRuntimeController: {fileID: 9100000, guid: 3eabd11420f0c0c40bd46103ecb01366,
+    type: 2}

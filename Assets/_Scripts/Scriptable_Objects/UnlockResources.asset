@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c8fd643d67ac44bb558dfe8b02e95a, type: 3}
+  m_Name: UnlockResources
+  m_EditorClassIdentifier: 
+  unlockObjectList:
+  - popupTitle: New Character Unlocked!
+    title: Hattori
+    description: Hattori is now available at the Barracks
+    hasModel: 1
+    icon: {fileID: 288459704, guid: bd587dbcf929e40968c6e9b8714b3549, type: 3}
+    model:
+      m_AssetGUID: eef327be4264d5f4ea4574f970cf940c
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    modelSizeMultiplier: 2
+    modelOffset: {x: 0, y: -1.5, z: 0}
+    type: 0
+  - popupTitle: "New\_Weapon Unlocked!"
+    title: Shotgun
+    description: Shotgun is now available at the Armory
+    hasModel: 1
+    icon: {fileID: 21300000, guid: 4705391fbcba4064fb5143396f59d07c, type: 3}
+    model:
+      m_AssetGUID: 5407fd54ca667e843a8cec945838e841
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 1
+    modelSizeMultiplier: 8
+    modelOffset: {x: 0, y: 1.15, z: 1.5}
+    type: 1
+  - popupTitle: "New\_Car Unlocked!"
+    title: Buggy
+    description: "Buggy\_is\_now\_available\_at\_the\_Garage"
+    hasModel: 1
+    icon: {fileID: 1498265167, guid: 790059e4cc06544d2ae1fc4d0a57af65, type: 3}
+    model:
+      m_AssetGUID: ad6da47c1fb614727ae1804dc2244578
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    modelSizeMultiplier: 1
+    modelOffset: {x: 0, y: 0, z: 0}
+    type: 2
+  - popupTitle: "New\_Car Unlocked!"
+    title: Suv
+    description: "Suv\_is\_now\_available\_at\_the\_Garage"
+    hasModel: 1
+    icon: {fileID: 1498265167, guid: 790059e4cc06544d2ae1fc4d0a57af65, type: 3}
+    model:
+      m_AssetGUID: f683178ebcf1d4fda85d3fadbcd09c2a
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    modelSizeMultiplier: 1
+    modelOffset: {x: 0, y: 0, z: 0}
+    type: 3
+  - popupTitle: "New\_Car Unlocked!"
+    title: HotRod
+    description: "HotRod\_is\_now\_available\_at\_the\_Garage"
+    hasModel: 1
+    icon: {fileID: 1498265167, guid: 790059e4cc06544d2ae1fc4d0a57af65, type: 3}
+    model:
+      m_AssetGUID: 8ffd2c1c673a945259cfd52cdbecfc0b
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    modelSizeMultiplier: 1
+    modelOffset: {x: 0, y: 0, z: 0}
+    type: 4
+  - popupTitle: "New\_Car Unlocked!"
+    title: Monster
+    description: "Monster is\_now\_available\_at\_the\_Garage"
+    hasModel: 1
+    icon: {fileID: 1498265167, guid: 790059e4cc06544d2ae1fc4d0a57af65, type: 3}
+    model:
+      m_AssetGUID: c22e2fbe393d441c7a1972c40f6e304b
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    modelSizeMultiplier: 1
+    modelOffset: {x: 0, y: 0, z: 0}
+    type: 5
+  - popupTitle: "New\_Car Unlocked!"
+    title: Ute
+    description: "Ute is\_now\_available\_at\_the\_Garage"
+    hasModel: 1
+    icon: {fileID: 1498265167, guid: 790059e4cc06544d2ae1fc4d0a57af65, type: 3}
+    model:
+      m_AssetGUID: 0a491dea99d01429c859d554bc93007e
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    modelSizeMultiplier: 1
+    modelOffset: {x: 0, y: 0, z: 0}
+    type: 6

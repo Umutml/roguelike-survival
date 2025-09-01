@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519824a994229564b9c97222cb741aed, type: 3}
+  m_Name: TutorialZombie
+  m_EditorClassIdentifier: 
+  name: Tutorial Zombie
+  zombieType: 0
+  enemyCategory: 6
+  health: 100
+  movementSpeed: 1.5
+  attackDamage: 1
+  attackRange: 1
+  attackSpeed: 3
+  detectionRadius: 10
+  baseXpDropValue: 1
+  xpDropValue: 0
+  xpDropChance: 0
+  softCurrencyChance: 0
+  minSoftCurrencyInWave: 0
+  maxSoftCurrencyInWave: 0
+  minSoftCurrencyInFreeRoam: 0
+  maxSoftCurrencyInFreeRoam: 0
+  largeHordeCount: 0
+  mediumHordeCount: 0
+  smallHordeCount: 0
+  prefabPath: StandardZombie
+  projectileReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  deathVFXReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  toxicVFXReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

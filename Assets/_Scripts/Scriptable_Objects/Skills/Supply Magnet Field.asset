@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b085784a3b6692f4899c05e5b4947a74, type: 3}
+  m_Name: Supply Magnet Field
+  m_EditorClassIdentifier: 
+  name: Supply Magnet Field
+  rarity: 0
+  contentType: 1
+  upgradeType: 4
+  attribute: 8
+  icon: {fileID: -2009652689, guid: 746937597ac3e4a3e817905116db406a, type: 3}
+  triggerType: 0
+  eventTriggerCondition:
+    eventBasedTrigger: 0
+    chances: []
+    cooldowns: []
+  timeBasedCondition:
+    cooldowns: []
+  starUpgrades:
+  - starLevel: 1
+    description: +50% pickup radius
+    upgradeDetails:
+    - type: 6
+      value: 50
+      valueModifierType: 1
+  - starLevel: 2
+    description: +100% pickup radius
+    upgradeDetails:
+    - type: 6
+      value: 100
+      valueModifierType: 1
+  - starLevel: 3
+    description: +150% pickup radius
+    upgradeDetails:
+    - type: 6
+      value: 150
+      valueModifierType: 1

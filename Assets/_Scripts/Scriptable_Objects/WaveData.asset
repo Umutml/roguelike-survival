@@ -1,0 +1,5615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4caa34d44b659694b97b692b51fd5f8b, type: 3}
+  m_Name: WaveData
+  m_EditorClassIdentifier: 
+  waves:
+  - name: 1th Wave
+    level: 1
+    duration: 30
+    large: 1
+    medium: 1
+    small: 1
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 2th Wave
+    level: 2
+    duration: 30
+    large: 1
+    medium: 1
+    small: 2
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 3th Wave
+    level: 3
+    duration: 30
+    large: 1
+    medium: 2
+    small: 2
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 4th Wave
+    level: 4
+    duration: 30
+    large: 1
+    medium: 2
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 5th Wave
+    level: 5
+    duration: 30
+    large: 1
+    medium: 3
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 6th Wave
+    level: 6
+    duration: 30
+    large: 2
+    medium: 2
+    small: 2
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 7th Wave
+    level: 7
+    duration: 30
+    large: 2
+    medium: 2
+    small: 2
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 8th Wave
+    level: 8
+    duration: 30
+    large: 2
+    medium: 2
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 9th Wave
+    level: 9
+    duration: 30
+    large: 2
+    medium: 2
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 10th Wave
+    level: 10
+    duration: 30
+    large: 2
+    medium: 3
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 11th Wave
+    level: 11
+    duration: 30
+    large: 2
+    medium: 3
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 12th Wave
+    level: 12
+    duration: 30
+    large: 2
+    medium: 3
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 13th Wave
+    level: 13
+    duration: 30
+    large: 2
+    medium: 3
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 14th Wave
+    level: 14
+    duration: 30
+    large: 2
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 15th Wave
+    level: 15
+    duration: 30
+    large: 2
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 16th Wave
+    level: 16
+    duration: 30
+    large: 3
+    medium: 3
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 17th Wave
+    level: 17
+    duration: 30
+    large: 3
+    medium: 3
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 18th Wave
+    level: 18
+    duration: 30
+    large: 3
+    medium: 3
+    small: 3
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 19th Wave
+    level: 19
+    duration: 30
+    large: 3
+    medium: 3
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 20th Wave
+    level: 20
+    duration: 30
+    large: 3
+    medium: 3
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 21th Wave
+    level: 21
+    duration: 30
+    large: 3
+    medium: 3
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 22th Wave
+    level: 22
+    duration: 30
+    large: 3
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 23th Wave
+    level: 23
+    duration: 30
+    large: 3
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 24th Wave
+    level: 24
+    duration: 30
+    large: 3
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 25th Wave
+    level: 25
+    duration: 30
+    large: 3
+    medium: 4
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 26th Wave
+    level: 26
+    duration: 30
+    large: 3
+    medium: 4
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 27th Wave
+    level: 27
+    duration: 30
+    large: 3
+    medium: 4
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 28th Wave
+    level: 28
+    duration: 30
+    large: 3
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 29th Wave
+    level: 29
+    duration: 30
+    large: 3
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 30th Wave
+    level: 30
+    duration: 30
+    large: 3
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 31th Wave
+    level: 31
+    duration: 30
+    large: 4
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 32th Wave
+    level: 32
+    duration: 30
+    large: 4
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 33th Wave
+    level: 33
+    duration: 30
+    large: 4
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 34th Wave
+    level: 34
+    duration: 30
+    large: 4
+    medium: 4
+    small: 4
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 35th Wave
+    level: 35
+    duration: 30
+    large: 4
+    medium: 4
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 36th Wave
+    level: 36
+    duration: 30
+    large: 4
+    medium: 4
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 37th Wave
+    level: 37
+    duration: 30
+    large: 4
+    medium: 4
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 38th Wave
+    level: 38
+    duration: 30
+    large: 4
+    medium: 4
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 39th Wave
+    level: 39
+    duration: 30
+    large: 4
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 40th Wave
+    level: 40
+    duration: 30
+    large: 4
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 41th Wave
+    level: 41
+    duration: 30
+    large: 4
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 42th Wave
+    level: 42
+    duration: 30
+    large: 4
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 43th Wave
+    level: 43
+    duration: 30
+    large: 4
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 44th Wave
+    level: 44
+    duration: 30
+    large: 4
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 45th Wave
+    level: 45
+    duration: 30
+    large: 4
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 46th Wave
+    level: 46
+    duration: 30
+    large: 4
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 47th Wave
+    level: 47
+    duration: 30
+    large: 4
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 48th Wave
+    level: 48
+    duration: 30
+    large: 4
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 49th Wave
+    level: 49
+    duration: 30
+    large: 4
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 50th Wave
+    level: 50
+    duration: 30
+    large: 4
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 51th Wave
+    level: 51
+    duration: 30
+    large: 5
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 52th Wave
+    level: 52
+    duration: 30
+    large: 5
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 53th Wave
+    level: 53
+    duration: 30
+    large: 5
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 54th Wave
+    level: 54
+    duration: 30
+    large: 5
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 55th Wave
+    level: 55
+    duration: 30
+    large: 5
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 56th Wave
+    level: 56
+    duration: 30
+    large: 5
+    medium: 5
+    small: 5
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 57th Wave
+    level: 57
+    duration: 30
+    large: 5
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 58th Wave
+    level: 58
+    duration: 30
+    large: 5
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 59th Wave
+    level: 59
+    duration: 30
+    large: 5
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 60th Wave
+    level: 60
+    duration: 30
+    large: 5
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 61th Wave
+    level: 61
+    duration: 30
+    large: 5
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 62th Wave
+    level: 62
+    duration: 30
+    large: 5
+    medium: 5
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 63th Wave
+    level: 63
+    duration: 30
+    large: 5
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 64th Wave
+    level: 64
+    duration: 30
+    large: 5
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 65th Wave
+    level: 65
+    duration: 30
+    large: 5
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 66th Wave
+    level: 66
+    duration: 30
+    large: 5
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 67th Wave
+    level: 67
+    duration: 30
+    large: 5
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 68th Wave
+    level: 68
+    duration: 30
+    large: 5
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 69th Wave
+    level: 69
+    duration: 30
+    large: 5
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 70th Wave
+    level: 70
+    duration: 30
+    large: 5
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 71th Wave
+    level: 71
+    duration: 30
+    large: 5
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 72th Wave
+    level: 72
+    duration: 30
+    large: 5
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 73th Wave
+    level: 73
+    duration: 30
+    large: 5
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 74th Wave
+    level: 74
+    duration: 30
+    large: 5
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 75th Wave
+    level: 75
+    duration: 30
+    large: 5
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 76th Wave
+    level: 76
+    duration: 30
+    large: 5
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 77th Wave
+    level: 77
+    duration: 30
+    large: 5
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 78th Wave
+    level: 78
+    duration: 30
+    large: 5
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 79th Wave
+    level: 79
+    duration: 30
+    large: 5
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 80th Wave
+    level: 80
+    duration: 30
+    large: 5
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 81th Wave
+    level: 81
+    duration: 30
+    large: 6
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 82th Wave
+    level: 82
+    duration: 30
+    large: 6
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 83th Wave
+    level: 83
+    duration: 30
+    large: 6
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 84th Wave
+    level: 84
+    duration: 30
+    large: 6
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 85th Wave
+    level: 85
+    duration: 30
+    large: 6
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 86th Wave
+    level: 86
+    duration: 30
+    large: 6
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 87th Wave
+    level: 87
+    duration: 30
+    large: 6
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 88th Wave
+    level: 88
+    duration: 30
+    large: 6
+    medium: 6
+    small: 6
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 89th Wave
+    level: 89
+    duration: 30
+    large: 6
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 90th Wave
+    level: 90
+    duration: 30
+    large: 6
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 91th Wave
+    level: 91
+    duration: 30
+    large: 6
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 92th Wave
+    level: 92
+    duration: 30
+    large: 6
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 93th Wave
+    level: 93
+    duration: 30
+    large: 6
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 94th Wave
+    level: 94
+    duration: 30
+    large: 6
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 95th Wave
+    level: 95
+    duration: 30
+    large: 6
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 96th Wave
+    level: 96
+    duration: 30
+    large: 6
+    medium: 6
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 97th Wave
+    level: 97
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 98th Wave
+    level: 98
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 99th Wave
+    level: 99
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 100th Wave
+    level: 100
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 101th Wave
+    level: 101
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 102th Wave
+    level: 102
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 103th Wave
+    level: 103
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 104th Wave
+    level: 104
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 105th Wave
+    level: 105
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 106th Wave
+    level: 106
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 107th Wave
+    level: 107
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 108th Wave
+    level: 108
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 109th Wave
+    level: 109
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 110th Wave
+    level: 110
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 111th Wave
+    level: 111
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 112th Wave
+    level: 112
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 113th Wave
+    level: 113
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 114th Wave
+    level: 114
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 115th Wave
+    level: 115
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 116th Wave
+    level: 116
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 117th Wave
+    level: 117
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 118th Wave
+    level: 118
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 119th Wave
+    level: 119
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 120th Wave
+    level: 120
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 121th Wave
+    level: 121
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 122th Wave
+    level: 122
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 123th Wave
+    level: 123
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 124th Wave
+    level: 124
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 125th Wave
+    level: 125
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 126th Wave
+    level: 126
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 127th Wave
+    level: 127
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 128th Wave
+    level: 128
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 129th Wave
+    level: 129
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 130th Wave
+    level: 130
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 131th Wave
+    level: 131
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 132th Wave
+    level: 132
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 133th Wave
+    level: 133
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 134th Wave
+    level: 134
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 135th Wave
+    level: 135
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 136th Wave
+    level: 136
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 137th Wave
+    level: 137
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 138th Wave
+    level: 138
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 139th Wave
+    level: 139
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 140th Wave
+    level: 140
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 141th Wave
+    level: 141
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 142th Wave
+    level: 142
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 143th Wave
+    level: 143
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 144th Wave
+    level: 144
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 145th Wave
+    level: 145
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 146th Wave
+    level: 146
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 147th Wave
+    level: 147
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 148th Wave
+    level: 148
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 149th Wave
+    level: 149
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 150th Wave
+    level: 150
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 151th Wave
+    level: 151
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 152th Wave
+    level: 152
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 153th Wave
+    level: 153
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 154th Wave
+    level: 154
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 155th Wave
+    level: 155
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 156th Wave
+    level: 156
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 157th Wave
+    level: 157
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 158th Wave
+    level: 158
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 159th Wave
+    level: 159
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 160th Wave
+    level: 160
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 161th Wave
+    level: 161
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 162th Wave
+    level: 162
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 163th Wave
+    level: 163
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 164th Wave
+    level: 164
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 165th Wave
+    level: 165
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 166th Wave
+    level: 166
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 167th Wave
+    level: 167
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 168th Wave
+    level: 168
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 169th Wave
+    level: 169
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 170th Wave
+    level: 170
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 171th Wave
+    level: 171
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 172th Wave
+    level: 172
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 173th Wave
+    level: 173
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 174th Wave
+    level: 174
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 175th Wave
+    level: 175
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 176th Wave
+    level: 176
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 177th Wave
+    level: 177
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 178th Wave
+    level: 178
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 179th Wave
+    level: 179
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 180th Wave
+    level: 180
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 181th Wave
+    level: 181
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 182th Wave
+    level: 182
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 183th Wave
+    level: 183
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 184th Wave
+    level: 184
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 185th Wave
+    level: 185
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 186th Wave
+    level: 186
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 187th Wave
+    level: 187
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 188th Wave
+    level: 188
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 189th Wave
+    level: 189
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 190th Wave
+    level: 190
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 191th Wave
+    level: 191
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 192th Wave
+    level: 192
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 193th Wave
+    level: 193
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 194th Wave
+    level: 194
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 195th Wave
+    level: 195
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 196th Wave
+    level: 196
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 197th Wave
+    level: 197
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 198th Wave
+    level: 198
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 199th Wave
+    level: 199
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+  - name: 200th Wave
+    level: 200
+    duration: 30
+    large: 6
+    medium: 7
+    small: 7
+    behaviorStates:
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0
+    - spawnType: 0
+      spawnCount: 12
+      isOnlyTutorialActive: 0
+      spawnAngle: 45
+      attackerProbability: 100
+      waitingProbability: 0
+      patrolProbability: 0

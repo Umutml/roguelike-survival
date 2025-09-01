@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c2d3fd9f89d4ebc98f10113561ecd42, type: 3}
+  m_Name: ThrowStunGrenade
+  m_EditorClassIdentifier: 
+  Name: Throw Stun Grenade
+  Type: 2
+  CooldownTime: 10
+  IconSprite: {fileID: -1305360075, guid: 903379238a09b40d998af7bc24fec35b, type: 3}
+  ammoAssetKey: StunGrenade
+  ammoPoolSize: 3
+  hitEffectKey: StunGrenadeExplosion
+  hitEffectPoolSize: 3
+  damage: 0
+  range: 10

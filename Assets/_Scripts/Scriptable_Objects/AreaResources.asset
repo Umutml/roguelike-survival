@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e72ac595d5204d509107ba755c90098, type: 3}
+  m_Name: AreaResources
+  m_EditorClassIdentifier: 
+  areaList:
+  - areaNpcType: 1
+    isPopupOpening: 1
+    afterTutorialLock: 1
+    inTutorialLock: 1
+    openingPopupType: 15
+    areaName: Pet
+    eventParameter: zone_pet
+    isNpcModel: 0
+    npcModelKey: 
+  - areaNpcType: 0
+    isPopupOpening: 1
+    afterTutorialLock: 0
+    inTutorialLock: 0
+    openingPopupType: 17
+    areaName: Shop
+    eventParameter: zone_shop
+    isNpcModel: 0
+    npcModelKey: 
+  - areaNpcType: 3
+    isPopupOpening: 1
+    afterTutorialLock: 0
+    inTutorialLock: 1
+    openingPopupType: 13
+    areaName: Armory
+    eventParameter: zone_armory
+    isNpcModel: 1
+    npcModelKey: SM_Chr_Soldier_Male_02
+  - areaNpcType: 2
+    isPopupOpening: 1
+    afterTutorialLock: 0
+    inTutorialLock: 1
+    openingPopupType: 7
+    areaName: Barracks
+    eventParameter: zone_barracks
+    isNpcModel: 1
+    npcModelKey: SM_Chr_Contractor_Male_02
+  - areaNpcType: 5
+    isPopupOpening: 1
+    afterTutorialLock: 1
+    inTutorialLock: 1
+    openingPopupType: 12
+    areaName: Mission Board
+    eventParameter: zone_mission_board
+    isNpcModel: 0
+    npcModelKey: 
+  - areaNpcType: 4
+    isPopupOpening: 1
+    afterTutorialLock: 0
+    inTutorialLock: 1
+    openingPopupType: 6
+    areaName: Upgrade\nVehicle
+    eventParameter: zone_car_upgrade
+    isNpcModel: 1
+    npcModelKey: SM_Chr_Contractor_Female_01
+  - areaNpcType: 6
+    isPopupOpening: 0
+    afterTutorialLock: 0
+    inTutorialLock: 1
+    openingPopupType: 6
+    areaName: Car\nRecover
+    eventParameter: zone_car_recover
+    isNpcModel: 0
+    npcModelKey: SM_Chr_Contractor_Female_01

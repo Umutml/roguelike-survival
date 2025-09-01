@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1234dcf4684a640e3bd58010b7c285ff, type: 3}
+  m_Name: Hattori
+  m_EditorClassIdentifier: 
+  character: 1
+  characterName: Hattori
+  modelAddressableKey: Hattori
+  characterSpacialSkill: 
+  characterArt:
+    m_AssetGUID: bd587dbcf929e40968c6e9b8714b3549
+    m_SubObjectName: Hattori
+    m_SubObjectGUID: 
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  characterGrayArt:
+    m_AssetGUID: bd587dbcf929e40968c6e9b8714b3549
+    m_SubObjectName: Hattori_Gray
+    m_SubObjectGUID: 
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  characterModel:
+    m_AssetGUID: eef327be4264d5f4ea4574f970cf940c
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  characterTopBarImage:
+    m_AssetGUID: ec1bcd1073b5247f89d9c09383d47957
+    m_SubObjectName: c-top-bar-hattori
+    m_SubObjectGUID: 
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  characterGradient:
+    serializedVersion: 2
+    key0: {r: 0.24436101, g: 0.23113209, b: 1, a: 1}
+    key1: {r: 0.28627452, g: 0.42745098, b: 1, a: 1}
+    key2: {r: 0.2028302, g: 0.56119096, b: 1, a: 0}
+    key3: {r: 0.28773582, g: 0.42675483, b: 1, a: 0}
+    key4: {r: 0.2028302, g: 0.41019222, b: 1, a: 0}
+    key5: {r: 0.6392157, g: 0.6117647, b: 0.9490196, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 11180
+    ctime2: 15806
+    ctime3: 23516
+    ctime4: 65535
+    ctime5: 65535
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  characterCardGradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0.8088417, b: 1, a: 1}
+    key1: {r: 0.5330188, g: 0.9683625, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  characterSpawnTransform:
+    position: {x: 0, y: -1.35, z: 0}
+    scale: {x: 2, y: 2, z: 2}
+  isLocked: 0
+  usesCustomAnimator: 1
+  animatorController: {fileID: 9100000, guid: bdd328760e2a2427ebc84e483fdf5973, type: 2}

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4aba10649c84aceadac09927e5e22d, type: 3}
+  m_Name: GemPack
+  m_EditorClassIdentifier: 
+  itemTitle: GEM PACK
+  itemDescription: Purchase gems to speed up your progress and unlock powerful upgrades!
+  enable: 1
+  eventParameter: 
+  itemReference:
+    m_AssetGUID: 073d480b4b0494a1eb3bdcdadc2872f6
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  segmentReference:
+    m_AssetGUID: 7d4a66f3a134742be95ed26eda915ecf
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  slots:
+  - shopItemList:
+    - productAmount: 100
+      bonusAmount: 50
+      productPrice: 0.99
+      eventParameter: IAP_GEM_PACK_100
+      productID: gem_pack_100
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Gem-v1-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 0
+      chestType: 0
+      purchaseOptions: 4
+      dailyStock: 0
+  - shopItemList:
+    - productAmount: 1000
+      bonusAmount: 500
+      productPrice: 9.99
+      eventParameter: IAP_GEM_PACK_1000
+      productID: gem_pack_1000
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Gem-v2-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 0
+      chestType: 0
+      purchaseOptions: 4
+      dailyStock: 0
+  - shopItemList:
+    - productAmount: 5000
+      bonusAmount: 2500
+      productPrice: 49.99
+      eventParameter: IAP_GEM_PACK_5000
+      productID: gem_pack_5000
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Gem-v3-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 0
+      chestType: 0
+      purchaseOptions: 4
+      dailyStock: 0

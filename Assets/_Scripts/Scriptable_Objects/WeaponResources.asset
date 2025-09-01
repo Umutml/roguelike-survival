@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ebeeea238614bc6a7de019346dc844, type: 3}
+  m_Name: WeaponResources
+  m_EditorClassIdentifier: 
+  weaponList:
+  - weaponName: Pistol
+    shownName: Pistol
+    lockedMessage: 
+    weaponArt:
+      m_AssetGUID: 99f4cc41620f04e2a93576b9fb04e3af
+      m_SubObjectName: Pistol_Art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    weaponBuyType: 1
+    purchaseOptions: 0
+    weaponPrice: 0
+    damage: 75
+    fireInterval: 1
+    range: 7
+    radius: 0
+    pelletCount: 0
+    fireAngle: 0
+    isEnable: 1
+  - weaponName: Shotgun
+    shownName: Shotgun
+    lockedMessage: 
+    weaponArt:
+      m_AssetGUID: 99f4cc41620f04e2a93576b9fb04e3af
+      m_SubObjectName: Shotgun_Art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    weaponBuyType: 1
+    purchaseOptions: 0
+    weaponPrice: 0
+    damage: 30
+    fireInterval: 1
+    range: 5
+    radius: 0
+    pelletCount: 5
+    fireAngle: 30
+    isEnable: 1
+  - weaponName: Uzi
+    shownName: Uzi
+    lockedMessage: Complete the "Convoy Escort" mission to unlock
+    weaponArt:
+      m_AssetGUID: 99f4cc41620f04e2a93576b9fb04e3af
+      m_SubObjectName: Uzi_Art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    weaponBuyType: 0
+    purchaseOptions: 1
+    weaponPrice: 2000
+    damage: 20
+    fireInterval: 0.15
+    range: 7
+    radius: 0
+    pelletCount: 0
+    fireAngle: 0
+    isEnable: 1
+  - weaponName: Rocket Launcher
+    shownName: Rocket Launcher
+    lockedMessage: Complete the "Helipad Clearance" mission to unlock
+    weaponArt:
+      m_AssetGUID: 99f4cc41620f04e2a93576b9fb04e3af
+      m_SubObjectName: Rocket_Launcher_art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    weaponBuyType: 2
+    purchaseOptions: 3
+    weaponPrice: 1
+    damage: 100
+    fireInterval: 2
+    range: 10
+    radius: 0
+    pelletCount: 0
+    fireAngle: 0
+    isEnable: 1
+  - weaponName: AssaultRifle
+    shownName: Assault Rifle
+    lockedMessage: Explore the map to reveal
+    weaponArt:
+      m_AssetGUID: 99f4cc41620f04e2a93576b9fb04e3af
+      m_SubObjectName: Assault_Rifle_Art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    weaponBuyType: 0
+    purchaseOptions: 1
+    weaponPrice: 10000
+    damage: 35
+    fireInterval: 0.2
+    range: 8
+    radius: 0
+    pelletCount: 0
+    fireAngle: 0
+    isEnable: 1
+  - weaponName: SniperRifle
+    shownName: Sniper Rifle
+    lockedMessage: Explore the map to reveal
+    weaponArt:
+      m_AssetGUID: 99f4cc41620f04e2a93576b9fb04e3af
+      m_SubObjectName: Sniper_Rifle_Art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    weaponBuyType: 2
+    purchaseOptions: 3
+    weaponPrice: 3
+    damage: 120
+    fireInterval: 2.5
+    range: 12
+    radius: 0
+    pelletCount: 0
+    fireAngle: 0
+    isEnable: 1
+  - weaponName: Chainsaw
+    shownName: Chainsaw
+    lockedMessage: Explore the map to reveal
+    weaponArt:
+      m_AssetGUID: 99f4cc41620f04e2a93576b9fb04e3af
+      m_SubObjectName: Chainsaw_Art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    weaponBuyType: 1
+    purchaseOptions: 0
+    weaponPrice: 150
+    damage: 120
+    fireInterval: 0.15
+    range: 18
+    radius: 0
+    pelletCount: 0
+    fireAngle: 0
+    isEnable: 0
+  - weaponName: FlameThrower
+    shownName: Flamethrower
+    lockedMessage: Explore the map to reveal
+    weaponArt:
+      m_AssetGUID: 99f4cc41620f04e2a93576b9fb04e3af
+      m_SubObjectName: Flamethrover_Art
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    weaponBuyType: 0
+    purchaseOptions: 1
+    weaponPrice: 20000
+    damage: 10
+    fireInterval: 0.05
+    range: 4
+    radius: 0
+    pelletCount: 0
+    fireAngle: 0
+    isEnable: 1

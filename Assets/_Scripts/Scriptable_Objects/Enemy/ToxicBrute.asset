@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519824a994229564b9c97222cb741aed, type: 3}
+  m_Name: ToxicBrute
+  m_EditorClassIdentifier: 
+  name: Toxic Brute
+  zombieType: 0
+  enemyCategory: 4
+  health: 300
+  movementSpeed: 1.5
+  attackDamage: 3
+  attackRange: 1.5
+  attackSpeed: 3
+  detectionRadius: 10
+  baseXpDropValue: 1
+  xpDropValue: 40
+  xpDropChance: 15
+  softCurrencyChance: 10
+  minSoftCurrencyInWave: 1
+  maxSoftCurrencyInWave: 5
+  minSoftCurrencyInFreeRoam: 1
+  maxSoftCurrencyInFreeRoam: 2
+  largeHordeCount: 10
+  mediumHordeCount: 5
+  smallHordeCount: 3
+  prefabPath: StandardZombie
+  skinKey: Zombie_BioHazardSuit_Male_01
+  projectileReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  deathVFXReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  toxicVFXReference:
+    m_AssetGUID: 4e77ca4136033a240aa700cf7399273b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  spitterRuntimeController: {fileID: 0}

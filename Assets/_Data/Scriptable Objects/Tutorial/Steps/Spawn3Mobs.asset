@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7725bfa9a64ca8d489ebcfcf53b7804b, type: 3}
+  m_Name: Spawn3Mobs
+  m_EditorClassIdentifier: 
+  PauseGame: 0
+  Skip: 0
+  spawnPosition:
+  - {x: -44.824898, y: 0, z: -537.9}
+  - {x: -46.450172, y: 0, z: -537.55}
+  - {x: -47.600163, y: 0, z: -538.61}
+  behaviorType: 3
+  skipRegistration: 0
+  isCrawlClose: 1
+  spawnDelay: 0

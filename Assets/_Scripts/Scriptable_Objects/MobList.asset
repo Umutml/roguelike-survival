@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a23de198e644b58c3d3f741d84b3d2, type: 3}
+  m_Name: MobList
+  m_EditorClassIdentifier: 
+  Mobs:
+  - Type: 0
+    Name: StandardZombie
+    SpawnChance: 96
+    PoolWarmupCount: 50
+  - Type: 1
+    Name: ZombieBossFemale
+    SpawnChance: 2
+    PoolWarmupCount: 5
+  - Type: 1
+    Name: ZombieBossMale
+    SpawnChance: 2
+    PoolWarmupCount: 5

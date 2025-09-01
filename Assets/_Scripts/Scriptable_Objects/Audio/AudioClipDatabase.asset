@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebbcc37e300aed48a0e81a834b58020, type: 3}
+  m_Name: AudioClipDatabase
+  m_EditorClassIdentifier: 
+  gameMusics:
+    tutorialMusic:
+      m_AssetGUID: 8f8cb4df2eb7746eeb57fe23ce0736d0
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    freeRoamMusic:
+      m_AssetGUID: ade238a0748154307af565789aa44b93
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    waveMusic:
+      m_AssetGUID: 8f8cb4df2eb7746eeb57fe23ce0736d0
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  audioClips:
+  - clipName: PistolOneShot
+    clip: {fileID: 8300000, guid: c922c34f559ead440a273a13a924cfc7, type: 3}
+  - clipName: ShotgunOneShot
+    clip: {fileID: 8300000, guid: 463b24cb712d09e4fbbfbfa9d47be8e4, type: 3}
+  - clipName: RocketOneShot
+    clip: {fileID: 8300000, guid: 77c2cacf436d40d4d8878e46f1e7412e, type: 3}
+  - clipName: RocketExplotionOneShot
+    clip: {fileID: 8300000, guid: 878d46363e7e0164a8b8c68333f993dc, type: 3}
+  - clipName: UziOneShot
+    clip: {fileID: 8300000, guid: 1eb5adab5b30e8d4fb7a65909562f58a, type: 3}
+  - clipName: AutomaticRifleOneShot
+    clip: {fileID: 8300000, guid: d83dec38fc56cd041a950bfd58f735c9, type: 3}
+  - clipName: BaseDoorOpen
+    clip: {fileID: 8300000, guid: fe133567022bf6c4d89738bb923d0b8c, type: 3}
+  - clipName: BaseDoorClose
+    clip: {fileID: 8300000, guid: d6df28f958b1ee642b5138a96d034215, type: 3}
+  - clipName: BoxCrack
+    clip: {fileID: 8300000, guid: c8a51e1f9e8541d438024ddf47b6c2a7, type: 3}
+  - clipName: CoinIncrease
+    clip: {fileID: 8300000, guid: 7059c1ea9cc1b754e9df3d1e1a7a2918, type: 3}
+  - clipName: EquipArmor
+    clip: {fileID: 8300000, guid: a0f5d733be5e0ed40ae68703eb41b042, type: 3}
+  - clipName: WeaponCockBack
+    clip: {fileID: 8300000, guid: 6a7245a03d7788040bf8bd306f90f40c, type: 3}
+  - clipName: Healing
+    clip: {fileID: 8300000, guid: 6debae54ecf33ec42976f39e495f26e8, type: 3}
+  - clipName: ZombieCrashed
+    clip: {fileID: 8300000, guid: 4da31032d2a5cc74888205947f7cbbfe, type: 3}
+  - clipName: ZombieDead1
+    clip: {fileID: 8300000, guid: aaa832149af9b8d4cb637b3a03a1fe4c, type: 3}
+  - clipName: ZombieDead2
+    clip: {fileID: 8300000, guid: 9d64edb2d2eb8e943803ade58abb1423, type: 3}
+  - clipName: ZombieDead3
+    clip: {fileID: 8300000, guid: 1bcce69d4e3471142a7bf9afbe01f407, type: 3}
+  - clipName: ZombieDead4
+    clip: {fileID: 8300000, guid: cceb5e2b4105be24eaf6322c5b3c77df, type: 3}
+  - clipName: ZombieDead5
+    clip: {fileID: 8300000, guid: 3cb1927ae9edea7479e71f4731e63d83, type: 3}
+  - clipName: ZombieDead6
+    clip: {fileID: 8300000, guid: db2529ce51af2564fac4014a0a6eac5e, type: 3}
+  - clipName: ZombieDead7
+    clip: {fileID: 8300000, guid: 94bcbfa1b07a8254bbd1a42ff964d202, type: 3}
+  - clipName: ZombieDead8
+    clip: {fileID: 8300000, guid: 7360b8eb4bf61d04989f554fa5164d79, type: 3}
+  - clipName: UIButtonPress
+    clip: {fileID: 8300000, guid: 537ca45f18c355e4692b8490647ab7d2, type: 3}
+  - clipName: Katana1
+    clip: {fileID: 8300000, guid: 2b0735baea8a67c4ba1270fd5607c1a6, type: 3}
+  - clipName: Katana2
+    clip: {fileID: 8300000, guid: 765c1d6817c121d40b51e240ee7c7a6e, type: 3}
+  - clipName: Katana3
+    clip: {fileID: 8300000, guid: a2b37a228fa9cb542ba71979d901b7a1, type: 3}
+  - clipName: Katana4
+    clip: {fileID: 8300000, guid: 1305881544072d340b19ee2e62ad3faa, type: 3}
+  - clipName: Katana5
+    clip: {fileID: 8300000, guid: 97a46115ff734b54d9e80b9236bf3fd6, type: 3}
+  - clipName: Katana6
+    clip: {fileID: 8300000, guid: 1b3ce4e2f7286814a89e8d143a74f167, type: 3}

@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4aba10649c84aceadac09927e5e22d, type: 3}
+  m_Name: DailyOffer
+  m_EditorClassIdentifier: 
+  itemTitle: DAILY OFFERS
+  itemDescription: "Don\u2019t miss out on time-limited deals! Grab your daily special
+    rewards now."
+  enable: 1
+  eventParameter: 
+  itemReference:
+    m_AssetGUID: 5771e36b00b2b45d789b814fe453059a
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  segmentReference:
+    m_AssetGUID: 7c87da95694594a2dace3f950a8e6c00
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  slots:
+  - shopItemList:
+    - productAmount: 200
+      bonusAmount: 0
+      productPrice: 20
+      eventParameter: FREE_DAILY_OFFER_1
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Coin-v2-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 1
+      chestType: 0
+      purchaseOptions: 5
+      dailyStock: 1
+    - productAmount: 5
+      bonusAmount: 0
+      productPrice: 0
+      eventParameter: FREE_DAILY_OFFER_1
+      productID: 
+      productImage:
+        m_AssetGUID: 903379238a09b40d998af7bc24fec35b
+        m_SubObjectName: Icon-Thunder
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 7
+      chestType: 0
+      purchaseOptions: 5
+      dailyStock: 1
+    - productAmount: 200
+      bonusAmount: 0
+      productPrice: 0
+      eventParameter: FREE_DAILY_OFFER_1
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Coin-v2-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 1
+      chestType: 0
+      purchaseOptions: 5
+      dailyStock: 1
+    - productAmount: 20
+      bonusAmount: 0
+      productPrice: 0
+      eventParameter: FREE_DAILY_OFFER_1
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Gem-v2-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 0
+      chestType: 0
+      purchaseOptions: 5
+      dailyStock: 1
+  - shopItemList:
+    - productAmount: 200
+      bonusAmount: 0
+      productPrice: 0
+      eventParameter: ADS_DAILY_OFFER_2
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Coin-v2-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 1
+      chestType: 0
+      purchaseOptions: 3
+      dailyStock: 3
+  - shopItemList:
+    - productAmount: 20
+      bonusAmount: 0
+      productPrice: 0
+      eventParameter: ADS_DAILY_OFFER_3
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Gem-v2-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 0
+      chestType: 0
+      purchaseOptions: 3
+      dailyStock: 3
+  - shopItemList:
+    - productAmount: 15
+      bonusAmount: 0
+      productPrice: 500
+      eventParameter: SC_DAILY_OFFER_4
+      productID: 
+      productImage:
+        m_AssetGUID: 903379238a09b40d998af7bc24fec35b
+        m_SubObjectName: Icon-Thunder
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 7
+      chestType: 0
+      purchaseOptions: 1
+      dailyStock: 1
+    - productAmount: 1
+      bonusAmount: 0
+      productPrice: 500
+      eventParameter: 
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Big-Chest
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 6
+      chestType: 1
+      purchaseOptions: 1
+      dailyStock: 1
+    - productAmount: 15
+      bonusAmount: 0
+      productPrice: 500
+      eventParameter: 
+      productID: 
+      productImage:
+        m_AssetGUID: 903379238a09b40d998af7bc24fec35b
+        m_SubObjectName: Icon-Thunder
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 7
+      chestType: 0
+      purchaseOptions: 1
+      dailyStock: 1
+    - productAmount: 1
+      bonusAmount: 0
+      productPrice: 500
+      eventParameter: 
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Big-Chest
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 6
+      chestType: 1
+      purchaseOptions: 1
+      dailyStock: 1
+  - shopItemList:
+    - productAmount: 15
+      bonusAmount: 0
+      productPrice: 50
+      eventParameter: HC_DAILY_OFFER_5
+      productID: 
+      productImage:
+        m_AssetGUID: 903379238a09b40d998af7bc24fec35b
+        m_SubObjectName: Icon-Thunder
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 7
+      chestType: 1
+      purchaseOptions: 0
+      dailyStock: 1
+  - shopItemList:
+    - productAmount: 1000
+      bonusAmount: 0
+      productPrice: 75
+      eventParameter: HC_DAILY_OFFER_6
+      productID: 
+      productImage:
+        m_AssetGUID: f732855a9c5734a4ea58cccaace56e21
+        m_SubObjectName: Coin-v2-Icon
+        m_SubObjectGUID: 
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        m_EditorAssetChanged: 1
+      productType: 1
+      chestType: 2
+      purchaseOptions: 0
+      dailyStock: 1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fccef36148e4aa1bd40665111ad37c, type: 3}
+  m_Name: VibrationResources
+  m_EditorClassIdentifier: 
+  vibrationModels:
+  - vibrationEventType: 0
+    hapticPattern: 4
+  - vibrationEventType: 1
+    hapticPattern: 5
+  - vibrationEventType: 2
+    hapticPattern: 6
+  - vibrationEventType: 3
+    hapticPattern: 8
+  - vibrationEventType: 4
+    hapticPattern: 1
+  - vibrationEventType: 5
+    hapticPattern: 4
+  - vibrationEventType: 6
+    hapticPattern: 4

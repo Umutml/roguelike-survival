@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273b3d4f299cba644bd75b9dfbeed0f5, type: 3}
+  m_Name: BoxDropChanceData
+  m_EditorClassIdentifier: 
+  boxBetweenDistance: 10
+  boxCount: 50
+  boxSpawnRadius: 100
+  dropChances:
+  - dropPodType: 0
+    probability: 50
+    isWaveOnly: 1
+    canIncrementDrop: 0
+    hasValue: 1
+    isDelay: 0
+    delayValue: 0
+    minValue: 1
+    maxValue: 5
+  - dropPodType: 1
+    probability: 10
+    isWaveOnly: 0
+    canIncrementDrop: 0
+    hasValue: 1
+    isDelay: 0
+    delayValue: 0
+    minValue: 1
+    maxValue: 5
+  - dropPodType: 2
+    probability: 30
+    isWaveOnly: 0
+    canIncrementDrop: 0
+    hasValue: 1
+    isDelay: 1
+    delayValue: 500
+    minValue: 50
+    maxValue: 100
+  - dropPodType: 8
+    probability: 30
+    isWaveOnly: 0
+    canIncrementDrop: 0
+    hasValue: 1
+    isDelay: 1
+    delayValue: 500
+    minValue: 100
+    maxValue: 100
+  - dropPodType: 3
+    probability: 40
+    isWaveOnly: 0
+    canIncrementDrop: 0
+    hasValue: 1
+    isDelay: 0
+    delayValue: 0
+    minValue: 1
+    maxValue: 5

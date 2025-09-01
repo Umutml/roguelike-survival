@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ShopItems
+  m_EditorClassIdentifier: 
+  m_GroupName: ShopItems
+  m_GUID: 35cb8944991a14f65914fe9ee40aa0b8
+  m_SerializeEntries:
+  - m_GUID: 073d480b4b0494a1eb3bdcdadc2872f6
+    m_Address: GemPack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2689233e1db8b4b499780e9c7c1d9a87
+    m_Address: CoinPack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55f71d6fad6cd44429fd519e42c40677
+    m_Address: CoinItemSegment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5771e36b00b2b45d789b814fe453059a
+    m_Address: DailyOffers
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c87da95694594a2dace3f950a8e6c00
+    m_Address: DailyOfferItemSegment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d4a66f3a134742be95ed26eda915ecf
+    m_Address: GemItemSegment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4176fad6acf147398d28bc3b5219dba
+    m_Address: RemoveAds
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 56b3f221e641b1a4d840ae34df1be389, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 627de16ac690a47179946a5157c04385, type: 2}
+    - {fileID: 11400000, guid: 08da49436236046048fbcc6f1b17c519, type: 2}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 519824a994229564b9c97222cb741aed, type: 3}
+  m_Name: ExplodingSwarmer
+  m_EditorClassIdentifier: 
+  name: Exploding Swarmer
+  zombieType: 0
+  enemyCategory: 7
+  health: 50
+  movementSpeed: 4
+  attackDamage: 20
+  attackRange: 0.75
+  attackSpeed: 2
+  detectionRadius: 10
+  baseXpDropValue: 2
+  xpDropValue: 2
+  xpDropChance: 15
+  softCurrencyChance: 10
+  minSoftCurrencyInWave: 1
+  maxSoftCurrencyInWave: 5
+  minSoftCurrencyInFreeRoam: 1
+  maxSoftCurrencyInFreeRoam: 2
+  largeHordeCount: 15
+  mediumHordeCount: 10
+  smallHordeCount: 5
+  prefabPath: StandardZombie
+  skinKey: Zombie_Clown_Male_01
+  projectileReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  deathVFXReference:
+    m_AssetGUID: d0782afd4b682f44f81cae106075da58
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  toxicVFXReference:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  spitterRuntimeController: {fileID: 0}

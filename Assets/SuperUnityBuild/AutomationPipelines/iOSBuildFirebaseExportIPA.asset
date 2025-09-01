@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8595763866719959891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c9a648d363e5488c4bff9c84c1d70, type: 3}
+  m_Name: UploadIpaToAppStore
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: UploadIpaToAppStore
+  note: iOS
+  actionEnabled: 0
+  configureEditor: 0
+  filter:
+    condition: 1
+    clauses:
+    - type: 1
+      comparison: 0
+      test: iOS
+--- !u!114 &-4523938865962346065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5401d58ad695f49aa6f20b296f7715, type: 3}
+  m_Name: UpdateBuildVersions
+  m_EditorClassIdentifier: 
+  actionType: 0
+  actionName: UpdateBuildVersions
+  note: UPDATE VERSION HERE
+  actionEnabled: 1
+  configureEditor: 1
+  filter:
+    condition: 0
+    clauses: []
+  bundleVersion: 1.4.0
+  bundleBuildVersion: 157
+--- !u!114 &-1475552516114748798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48fdb6223d4cef6438a77a46438f251b, type: 3}
+  m_Name: DeleteAddressableFolderData
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: DeleteAddressableFolderData
+  note: SelectediOS
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 1
+    clauses:
+    - type: 1
+      comparison: 0
+      test: iOS
+  Ios: 1
+  Android: 0
+--- !u!114 &-329212831166787601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a18aa253980faf429c613011cc8c6e2, type: 3}
+  m_Name: CopyFastlaneFiles
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: CopyFastlaneFiles
+  note: CopyiOSFiles
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 1
+    clauses:
+    - type: 1
+      comparison: 0
+      test: iOS
+  sourceFolder: FastlaneBackup/iOS
+  destinationFolder: Builds/iOS
+--- !u!114 &-286349041371184463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253f2a80c6b3479da3d684e25876a958, type: 3}
+  m_Name: AutomationAdjustControl
+  m_EditorClassIdentifier: 
+  actionType: 0
+  actionName: AutomationAdjustControl
+  note: 
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 0
+    clauses: []
+  isProduction: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
+  m_Name: iOSBuildFirebaseExportIPA
+  m_EditorClassIdentifier: 
+  _basicSettings:
+    baseBuildFolder: Builds
+    buildPath: $PLATFORM
+    openFolderPostBuild: 0
+    constantsFileLocation: Assets\SuperUnityBuild
+  _productParameters:
+    buildCounter: 12
+    buildVersion: 1.0.0
+    versionTemplate: 1.0.0
+    autoGenerate: 0
+    syncWithPlayerSettings: 1
+  _releaseTypeList:
+    releaseTypes:
+    - typeName: Release
+      bundleIdentifier: com.nosurrenderstudio.rougelikesurvival
+      companyName: No Surrender
+      productName: Zombie Drift Survival Racing
+      syncAppNameWithProduct: 1
+      appBuildName: Zombie Drift Survival Racing
+      buildOptions: 524416
+      customDefines: 
+      sceneList:
+        releaseScenes:
+        - fileGUID: 89f29638c519cb7488dc785b9ed533e0
+          sceneActive: 1
+  _platformList:
+    platforms:
+    - {fileID: 8637795662934101976}
+  _projectConfigurations:
+    configSet:
+      _Buckets: ffffffff0000000003000000ffffffffffffffff02000000ffffffff
+      _HashCodes: fc719237a3d9fd6793dbdf1b2d6dfd48000000000000000000000000
+      _Next: ffffffffffffffffffffffff01000000000000000000000000000000
+      _Count: 4
+      _Version: 4
+      _FreeList: -1
+      _FreeCount: 0
+      _Keys:
+      - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP
+      - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)
+      - Release/iOS
+      - Release
+      - 
+      - 
+      - 
+      _Values:
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP
+      - enabled: 1
+        childKeys:
+        - Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)
+      - enabled: 1
+        childKeys:
+        - Release/iOS
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+    showViewOptions: 0
+    showConfigs: 0
+    showBuildInfo: 0
+    hideDisabled: 0
+    treeView: 0
+    selectedKeyChain: Release/iOS/iOS (iPhoneAndiPad,Device SDK,Release)/IL2CPP
+  _preBuildActions:
+    buildActions:
+    - {fileID: 3556838116034863910}
+    - {fileID: -4523938865962346065}
+    - {fileID: -286349041371184463}
+    - {fileID: 5012428739996919213}
+    - {fileID: -1475552516114748798}
+    - {fileID: 9116602695674274701}
+  _postBuildActions:
+    buildActions:
+    - {fileID: -329212831166787601}
+    - {fileID: 1979298968817113133}
+--- !u!114 &1979298968817113133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3203ec6ee993a40bc7ddb103b73b94, type: 3}
+  m_Name: IOSPostBuildActions
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: IOSPostBuildActions
+  note: 
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 1
+    clauses:
+    - type: 1
+      comparison: 0
+      test: iOS
+  projectPath: Builds/iOS
+  exportMethod: 3
+  exportAndUpload: 0
+  uploadToAppStore: 0
+  exportIpa: 1
+  gitTagVersion: 0
+--- !u!114 &3100090375134417655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0516b1feed0514e8c6f9e063ad5263, type: 3}
+  m_Name: UploadAabToPlayStore
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: UploadAabToPlayStore
+  note: Android
+  actionEnabled: 0
+  configureEditor: 0
+  filter:
+    condition: 1
+    clauses:
+    - type: 1
+      comparison: 0
+      test: Android
+--- !u!114 &3556838116034863910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c1bd5cc6326b4449ad945a5661c1ca, type: 3}
+  m_Name: AutomationBuildStarted
+  m_EditorClassIdentifier: 
+  actionType: 0
+  actionName: AutomationBuildStarted
+  note: AutomationStartedNotif.
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 0
+    clauses: []
+--- !u!114 &5012428739996919213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb30866ed1c50e4dadc7d4674d41e42, type: 3}
+  m_Name: SrDebuggerControl
+  m_EditorClassIdentifier: 
+  actionType: 0
+  actionName: SrDebuggerControl
+  note: 
+  actionEnabled: 1
+  configureEditor: 1
+  filter:
+    condition: 0
+    clauses: []
+  enableDebugger: 1
+--- !u!114 &8637795662934101976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef8779c491f5c644abe870eaa46e52c, type: 3}
+  m_Name: iOS
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions: []
+  architectures:
+  - target: 9
+    name: iOS
+    enabled: 1
+    binaryNameFormat: 
+  variants:
+  - variantName: Device Type
+    selectedIndex: 2
+    values:
+    - iPhoneOnly
+    - iPadOnly
+    - iPhoneAndiPad
+    isFlag: 0
+  - variantName: Target SDK
+    selectedIndex: 0
+    values:
+    - Device SDK
+    - Simulator SDK
+    isFlag: 0
+  - variantName: Build Type
+    selectedIndex: 1
+    values:
+    - Debug
+    - Release
+    isFlag: 0
+  scriptingBackends:
+  - scriptingImplementation: 1
+    name: IL2CPP
+    enabled: 1
+  platformName: iOS
+  targetGroup: 4
+--- !u!114 &9116602695674274701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235a75f71395995469a61b6e257b1909, type: 3}
+  m_Name: BuildAddressableContent
+  m_EditorClassIdentifier: 
+  actionType: 1
+  actionName: BuildAddressableContent
+  note: 
+  actionEnabled: 1
+  configureEditor: 0
+  filter:
+    condition: 0
+    clauses: []

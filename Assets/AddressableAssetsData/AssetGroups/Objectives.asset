@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Objectives
+  m_EditorClassIdentifier: 
+  m_GroupName: Objectives
+  m_GUID: 3c891a4436c3f014db83dbef78c5d13e
+  m_SerializeEntries:
+  - m_GUID: 03f362f543a1018499d5f83523c113a5
+    m_Address: ObjectiveDefend_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 495a39cdba455d44fb32f131f37daab3
+    m_Address: ObjectiveEscort_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b28ed88acd49e9844a2746045c14a9e9
+    m_Address: ObjectiveDefence_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e02bbc4d5477b864db181ab04376b4ea
+    m_Address: ObjectiveSurvive_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 56b3f221e641b1a4d840ae34df1be389, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8209c87899ff93f469d5037cd79eb600, type: 2}
+    - {fileID: 11400000, guid: 45271dcf1ef0ccf4484af0af88a6a649, type: 2}
